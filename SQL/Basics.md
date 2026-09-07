@@ -1,0 +1,1 @@
+This is the first file of sql here i keep basic command of sql . 
