@@ -21,10 +21,22 @@ CREATE TABLE table_name (
 )
  
 # To delete the database 
-DROP DATABASE 
+DROP DATABASE database_name;(permanently removes the database and everything inside it)
 
-# To delete the column 
+# Check current Database
+SELECT DATABASE();
 
+# Show all tables 
+SHOW TABLES;
 
-# To add Column 
+# Describe Table 
+DESCRIBE(OR DESC) TABLES;
+
+ 
+ # Rename Table
+RENAME TABLE employees TO staff;
+ 
+# Delete Table
+DROP TABLE employees;
+
 
