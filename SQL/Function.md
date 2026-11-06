@@ -88,3 +88,11 @@ Example:
 SELECT CEIL(3.2) AS rounded_up_value;
 ``` 
 return rounded_up_value;`(4)
+
+# To count number of rows in a table, you can use the COUNT function in a SELECT statement. It can be used to find the total number of records in a table or the number of records that meet a specific condition.
+Example:
+```sql
+SELECT COUNT(*) AS total_records
+
+FROM employees;
+```
